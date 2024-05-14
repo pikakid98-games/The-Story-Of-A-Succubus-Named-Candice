@@ -1,0 +1,243 @@
+Display Name = "Vilam Plaza"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[27]Rita>\\C[0]Oh. You're here. My husband Rick told me all about"])
+    ShowText([" you. I'm assuming you're here for some items"])
+    ShopProcessing([0, 1, 1, 25, false])
+    ShopItem([0, 7, 1, 20])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[9]Rick>\\C[0]Spend it wisely"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<Alan>You want some armour?"])
+    ShopProcessing([2, 1, 1, 30, false])
+    ShopItem([2, 2, 1, 30])
+    ShopItem([2, 3, 1, 30])
+    ShopItem([2, 4, 1, 30])
+    ShopItem([2, 5, 1, 30])
+    ShopItem([2, 6, 1, 30])
+    ShopItem([2, 7, 1, 30])
+    ShopItem([2, 8, 1, 30])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["Do You Wish To Enter?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      TransferPlayer([0, 45, 15, 5, 0, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<William>I HAVE WEAPONS!!!!!!!"])
+    ShowText(["BUY THEM!!!!!!!!"])
+    ShopProcessing([1, 4, 1, 40, false])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Are you sure you wish to leave now?"])
+    ShowText([" "])
+    ShowText(["This will advance the story"])
+    ShowChoices([["Yes", "No"], 0])
+    When([0, "Yes"])
+      TransferPlayer([0, 25, 4, 18, 8, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["Are you sure you wish to leave now?"])
+    ShowText([" "])
+    ShowText(["This will advance the story"])
+    ShowChoices([["Yes", "No"], 0])
+    When([0, "Yes"])
+      TransferPlayer([0, 25, 4, 18, 8, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<Witch>Kyeheheh. I sell spells to those worthy"])
+    ShopProcessing([0, 20, 1, 40, false])
+    ShopItem([0, 21, 1, 40])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["There's a note on the door"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["Please don't try to get in without paying,"])
+    ShowText(["Dear. If you want to spend a night here then"])
+    ShowText(["talk to Bertha. (The woman next to the sign that"])
+    ShowText(["says Inn). Thank you                       - Bertha"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["There's a note on the door"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["Please don't try to get in without paying,"])
+    ShowText(["Dear. If you want to spend a night here then"])
+    ShowText(["talk to Bertha. (The woman next to the sign that"])
+    ShowText(["says Inn). Thank you                       - Bertha"])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<Bertha>Oh my. A customer? Do you wish to stay at our inn"])
+    ShowText(["and heal?"])
+    ShowText(["It only costs \\I[361]20 a night. Do you want a room?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      ConditionalBranch([7, 20, 0])
+        FadeoutScreen([])
+        FadeoutBGM([2])
+        ChangeGold([1, 0, 20])
+        RecoverAll([0, 0])
+        PlaySE(["RPG::SE(@name=\"Sleep\", @pitch=100, @volume=80)"])
+        Wait([60])
+        FadeinScreen([])
+        PlayBGM(["RPG::BGM(@name=\"Town1\", @volume=100, @pitch=135)"])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["\\n<Bertha>We hope your night was peaceful"])
+        Empty([])
+      Else([])
+        ShowTextAttributes(["", 0, 0, 2])
+        ShowText(["\\n<Bertha>Sorry, Dear. you haven't got enough money."])
+        ShowText(["I don't give rooms away for free"])
+        Empty([])
+      BranchEnd([])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["Do you wish to enter?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      TransferPlayer([0, 45, 15, 5, 2, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["Do you wish to enter?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      TransferPlayer([0, 45, 15, 5, 2, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["Do you wish to enter?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      TransferPlayer([0, 45, 15, 5, 2, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["Do you wish to enter?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      TransferPlayer([0, 45, 15, 5, 2, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])

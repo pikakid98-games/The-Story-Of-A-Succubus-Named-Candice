@@ -1,0 +1,16 @@
+CommonEvent 2
+Name = "World Map 2"
+
+  ShowTextAttributes(["", 0, 0, 2])
+  ShowText(["Will You Open The World Map?"])
+  ShowChoices([["Yes", "No"], 2])
+  When([0, "Yes"])
+    ChangePartyMember([4, 1, 0])
+    TransferPlayer([0, 63, 14, 27, 0, 0])
+    Empty([])
+
+  When([1, "No"])
+    Empty([])
+
+  ChoicesEnd([])
+  Empty([])

@@ -1,0 +1,186 @@
+Enemy 1
+Battler Name = "Paladin_m"
+Name = "Rick"
+Description = ""
+Note = ""
+
+Enemy 2
+Battler Name = "Soldier"
+Name = "Soldier"
+Description = ""
+Note = ""
+
+Enemy 3
+Battler Name = "Slime"
+Name = "Slime"
+Description = ""
+Note = ""
+
+Enemy 4
+Battler Name = "Slime"
+Name = "Rare Slime"
+Description = ""
+Note = ""
+
+Enemy 5
+Battler Name = "Lamia"
+Name = "Arkata"
+Description = ""
+Note = ""
+
+Enemy 6
+Battler Name = "Imp"
+Name = "Imp"
+Description = ""
+Note = ""
+
+Enemy 7
+Battler Name = "Imp"
+Name = "Rare Imp"
+Description = ""
+Note = ""
+
+Enemy 8
+Battler Name = "Imp"
+Name = "Legendary Imp"
+Description = ""
+Note = ""
+
+Enemy 9
+Battler Name = "Kerberos"
+Name = "Dijara"
+Description = ""
+Note = ""
+
+Enemy 10
+Battler Name = "Bandit"
+Name = "Bandit"
+Description = ""
+Note = ""
+
+Enemy 11
+Battler Name = "Bandit"
+Name = "Rare Bandit"
+Description = ""
+Note = ""
+
+Enemy 12
+Battler Name = "Jellyfish"
+Name = "Jellyfish"
+Description = ""
+Note = ""
+
+Enemy 13
+Battler Name = "Jellyfish"
+Name = "Rare Jellyfish"
+Description = ""
+Note = ""
+
+Enemy 14
+Battler Name = "Evilking"
+Name = "Armourus"
+Description = ""
+Note = ""
+
+Enemy 15
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 16
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 17
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 18
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 19
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 20
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 21
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 22
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 23
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 24
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 25
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 26
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 27
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 28
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 29
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 30
+Battler Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Enemy 31
+Battler Name = "Succubus"
+Name = "Succubus"
+Description = ""
+Note = ""
+

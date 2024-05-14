@@ -1,0 +1,112 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["It looks like a healing station of some sort"])
+    ShowText([" "])
+    ShowText(["Use it?"])
+    ShowChoices([["Yes", "No"], 2])
+    When([0, "Yes"])
+      PlaySE(["RPG::SE(@name=\"Heal2\", @pitch=100, @volume=80)"])
+      Wait([60])
+      ShowTextAttributes(["", 0, 1, 2])
+      ShowText(["You feel refreshed"])
+      RecoverAll([0, 0])
+      Empty([])
+
+    When([1, "No"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    TransferPlayer([0, 100, 10, 7, 0, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    TransferPlayer([0, 100, 9, 7, 0, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Close2\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 137, 21, 5, 8, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Close2\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=100, @volume=80)"])
+    BattleProcessing([0, 8, false, false])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Close2\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=100, @volume=80)"])
+    BattleProcessing([0, 8, false, false])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Close2\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=100, @volume=80)"])
+    BattleProcessing([0, 8, false, false])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Close2\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=100, @volume=80)"])
+    BattleProcessing([0, 8, false, false])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Close2\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=100, @volume=80)"])
+    BattleProcessing([0, 8, false, false])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Close2\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=100, @volume=80)"])
+    BattleProcessing([0, 8, false, false])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Close2\", @pitch=100, @volume=80)"])
+    PlaySE(["RPG::SE(@name=\"Buzzer2\", @pitch=100, @volume=80)"])
+    BattleProcessing([0, 8, false, false])
+    Empty([])

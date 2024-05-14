@@ -1,0 +1,21 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Wait([200])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText(["The Next Day"])
+    Wait([30])
+    PlaySE(["RPG::SE(@name=\"Open1\", @pitch=100, @volume=100)"])
+    Wait([2])
+    ChangePartyMember([14, 1, 0])
+    ChangePartyMember([15, 0, 1])
+    Wait([60])
+    Wait([60])
+    FadeinScreen([])
+    TransferPlayer([0, 173, 2, 10, 6, 2])
+    Empty([])

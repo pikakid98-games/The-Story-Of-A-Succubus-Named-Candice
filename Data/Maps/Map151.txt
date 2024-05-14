@@ -1,0 +1,26 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[17]???>\\C[0]Hello, Player. Allow me to introduce myself"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[17]Pikakid98>\\C[0]Yo wazzup it's Pikakid98 here. I made the game"])
+    ShowText(["you're playing right now"])
+    TransferPlayer([0, 206, 0, 0, 0, 2])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ConditionalBranch([12, "File.exists?(\"Save17.rvdata2\")"])
+      Script(["DataManager.load_game(16)"])
+      Empty([])
+
+    BranchEnd([])
+    Empty([])

@@ -1,0 +1,36 @@
+CommonEvent 16
+Name = "config"
+
+  ConditionalBranch([12, "File.exists?(\"candice-winsize (640x480).tconf\")"])
+    Script(["Window_Resize.r(640, 480)"])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([12, "File.exists?(\"candice-winsize (800x600).tconf\")"])
+    Script(["Window_Resize.r(800, 600)"])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([12, "File.exists?(\"candice-winsize (1080x720).tconf\")"])
+    Script(["Window_Resize.r(1080, 720)"])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  ConditionalBranch([12, "File.exists?(\"candice-winsize (1280x760).tconf\")"])
+    Script(["Window_Resize.r(1280, 760)"])
+    Empty([])
+
+  Else([])
+    Empty([])
+
+  BranchEnd([])
+  Empty([])

@@ -1,0 +1,185 @@
+Troop 1
+Name = "Rick's Troops"
+
+Page 0
+  Empty([])
+
+Troop 2
+Name = "Slime Troops *2"
+
+Page 0
+  Empty([])
+
+Troop 3
+Name = "Rare Slime Troops *2"
+
+Page 0
+  Empty([])
+
+Troop 4
+Name = "[Boss 1] Arkata"
+
+Page 0
+  Empty([])
+
+Troop 5
+Name = "Legendary Imp Troops [Mini Boss]"
+
+Page 0
+  Empty([])
+
+Troop 6
+Name = "Imp Troops *3"
+
+Page 0
+  Empty([])
+
+Troop 7
+Name = "Imp Troops *2"
+
+Page 0
+  Empty([])
+
+Troop 8
+Name = "Rare Imp Troops *2"
+
+Page 0
+  Empty([])
+
+Troop 9
+Name = "Legend/Rare/Common Imp Troops"
+
+Page 0
+  Empty([])
+
+Troop 10
+Name = "[Boss 2] Dijara"
+
+Page 0
+  Empty([])
+
+Troop 11
+Name = "Bandit*2"
+
+Page 0
+  Empty([])
+
+Troop 12
+Name = "Rare Bandit*2"
+
+Page 0
+  Empty([])
+
+Troop 13
+Name = "Bandit*3"
+
+Page 0
+  Empty([])
+
+Troop 14
+Name = "Rare Bandit*3"
+
+Page 0
+  Empty([])
+
+Troop 15
+Name = "Jellyfish"
+
+Page 0
+  Empty([])
+
+Troop 16
+Name = "Jellyfish*2"
+
+Page 0
+  Empty([])
+
+Troop 17
+Name = "Jellyfish*3"
+
+Page 0
+  Empty([])
+
+Troop 18
+Name = "Jellyfish*2, Rare Jellyfish"
+
+Page 0
+  Empty([])
+
+Troop 19
+Name = "Rare Jellyfish*2, Jellyfish"
+
+Page 0
+  Empty([])
+
+Troop 20
+Name = "Rare Jellyfish*3"
+
+Page 0
+  Empty([])
+
+Troop 21
+Name = "[Boss 3] Armourus"
+
+Page 0
+  Empty([])
+
+Troop 22
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 23
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 24
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 25
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 26
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 27
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 28
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 29
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 30
+Name = ""
+
+Page 0
+  Empty([])
+
+Troop 31
+Name = "Succubus"
+
+Page 0
+  Empty([])

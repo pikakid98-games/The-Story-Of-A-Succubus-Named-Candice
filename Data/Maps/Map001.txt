@@ -1,0 +1,13 @@
+Display Name = "Chapter 1: The beginning"
+Parallax Name = "BlueSky"
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowPicture([1, "TSOASNC intro 1", 0, 0, 0, 0, 100, 100, 255, 0])
+    Wait([90])
+    ErasePicture([1])
+    TransferPlayer([0, 125, 0, 0, 0, 0])
+    Empty([])

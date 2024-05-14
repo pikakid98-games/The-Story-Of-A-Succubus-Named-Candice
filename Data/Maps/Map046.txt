@@ -1,0 +1,25 @@
+Display Name = ""
+Parallax Name = "RPG purrcatory"
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowChoices([["Start Emulation", "Close Emulation"], 0])
+    When([0, "Start Emulation"])
+      PlaySE(["RPG::SE(@name=\"Windows Error Sound Effect\", @pitch=100, @volume=100)"])
+      Empty([])
+
+    When([1, "Close Emulation"])
+      FadeoutBGM([2])
+      FadeoutScreen([])
+      ChangeMenuAccess([1])
+      ChangeActorGraphic([1, "Monster2", 3, "TSOASNC Characters", 0])
+      ChangePlayerFollowers([0])
+      FadeinScreen([])
+      TransferPlayer([0, 21, 5, 11, 2, 0])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])

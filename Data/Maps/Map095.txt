@@ -1,0 +1,67 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=-68.0, @gray=0.0)", 60, false])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["                   \\C[10]WARNING!!"])
+    ShowText(["\\C[0]Leaving This Area Will Cause A Loss Of Progress"])
+    ShowText(["This Is Not Recommended To Do. To Save You From This"])
+    ShowText(["The Exit Is Off Limits For Now"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    ChangeBattleBGM(["RPG::BGM(@name=\"dominator\", @volume=100, @pitch=150)"])
+    BattleProcessing([0, 5, false, false])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Naruto - Strong And Strike (Extended)\", @volume=100, @pitch=100)"])
+    TransferPlayer([0, 96, 9, 7, 0, 2])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ChangeBattleBGM(["RPG::BGM(@name=\"dominator\", @volume=100, @pitch=150)"])
+    BattleProcessing([0, 5, false, false])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Naruto - Strong And Strike (Extended)\", @volume=100, @pitch=100)"])
+    TransferPlayer([0, 96, 9, 7, 0, 2])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ChangeBattleBGM(["RPG::BGM(@name=\"dominator\", @volume=100, @pitch=150)"])
+    BattleProcessing([0, 5, false, false])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Naruto - Strong And Strike (Extended)\", @volume=100, @pitch=100)"])
+    TransferPlayer([0, 96, 9, 7, 0, 2])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ChangeBattleBGM(["RPG::BGM(@name=\"dominator\", @volume=100, @pitch=150)"])
+    BattleProcessing([0, 5, false, false])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Naruto - Strong And Strike (Extended)\", @volume=100, @pitch=100)"])
+    TransferPlayer([0, 96, 9, 7, 0, 2])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    Empty([])

@@ -1,0 +1,144 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    TransferPlayer([0, 11, 8, 0, 2, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    TransferPlayer([0, 11, 8, 0, 2, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    TransferPlayer([0, 11, 8, 0, 2, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    TransferPlayer([0, 11, 8, 0, 2, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    TransferPlayer([0, 11, 8, 0, 2, 0])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    TransferPlayer([0, 11, 8, 0, 2, 0])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[25]Candice"])
+    ShowText(["\\C[0] I Have No Reason To Go Back"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    TransferPlayer([0, 12, 6, 19, 0, 0])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    TransferPlayer([0, 12, 6, 19, 0, 0])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    TransferPlayer([0, 12, 6, 19, 0, 0])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[25]Candice"])
+    ShowText(["\\C[0] I'm Not Walking Into Random"])
+    ShowText(["People's Homes"])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[25]Candice"])
+    ShowText(["\\C[0] I'm Not Walking Into Random"])
+    ShowText(["People's Homes"])
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[25]Candice"])
+    ShowText(["\\C[0] I'm Not Walking Into Random"])
+    ShowText(["People's Homes"])
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\C[25]Candice"])
+    ShowText(["\\C[0] I'm Not Walking Into Random"])
+    ShowText(["People's Homes"])
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    Empty([])
+
+CommonEvent 16
+Name = "EV016"
+
+  Page 0
+    ShotBalloonIcon([-1, 1, true])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]You\\|... Want to leave?"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]I do. It's been my life long dream to leave"])
+    ShowText(["home and go on an adventure"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]And I couldn't think of a better partner"])
+    FadeoutBGM([2])
+    Wait([120])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]You"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]Let's look for that world map and"])
+    ShowText(["get out of here"])
+    ChangePlayerFollowers([0])
+    TransferPlayer([0, 30, 21, 7, 8, 0])
+    Empty([])

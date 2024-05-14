@@ -1,0 +1,18 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Wait([100])
+    SetWeatherEffects([:rain, 4, 0, false])
+    PlayBGS(["RPG::BGS(@name=\"Rain\", @volume=60, @pitch=100)"])
+    TintScreen(["Tone(@red=-68.0, @green=-68.0, @blue=0.0, @gray=68.0)", 60, false])
+    Wait([100])
+    SetWeatherEffects([:none, 9, 60, false])
+    FadeoutBGS([1])
+    Wait([100])
+    TransferPlayer([0, 179, 0, 0, 0, 0])
+    Empty([])

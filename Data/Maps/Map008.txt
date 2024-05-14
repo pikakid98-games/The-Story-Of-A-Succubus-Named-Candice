@@ -1,0 +1,186 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    TransferPlayer([0, 9, 8, 0, 2, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    TransferPlayer([0, 9, 8, 0, 2, 0])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    TransferPlayer([0, 9, 8, 0, 2, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    TransferPlayer([0, 9, 8, 0, 2, 0])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    TransferPlayer([0, 9, 8, 0, 2, 0])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    TransferPlayer([0, 9, 8, 0, 2, 0])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>I have no reason to go back"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]I have the feeling that this is the"])
+    ShowText(["wrong way"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]I have the feeling that this is the"])
+    ShowText(["wrong way"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]I have the feeling that this is the"])
+    ShowText(["wrong way"])
+    SetMoveRoute([-1, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=13, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=13, @parameters=[])"])
+    Empty([])
+
+CommonEvent 11
+Name = "EV011"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]I'm not walking into random people's homes"])
+    Empty([])
+
+CommonEvent 12
+Name = "EV012"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]I'm not walking into random people's homes"])
+    Empty([])
+
+CommonEvent 13
+Name = "EV013"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]I'm not walking into random people's homes"])
+    Empty([])
+
+CommonEvent 14
+Name = "EV014"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]I'm not walking into random people's homes"])
+    Empty([])
+
+CommonEvent 15
+Name = "EV015"
+
+  Page 0
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=25, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=25, @parameters=[])"])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+    ShotBalloonIcon([0, 1, false])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]YOU'RE AWAKE!!\\|...YAY!!!"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]Calm down, Little one. Just tell me why you"])
+    ShowText(["took care of me in my unconcious state."])
+    ShotBalloonIcon([-1, 6, false])
+    PlaySE(["RPG::SE(@name=\"Miss\", @pitch=100, @volume=80)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]I'm sorry. I just wanted to be your friend"])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["Rose has started to cry"])
+    ShowText([" "])
+    ShowText(["What will you do?"])
+    ShowChoices([["Comfort her", "Ignore her"], 0])
+    When([0, "Comfort her"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[25]Candice>\\C[0]It's ok. but you clearly have no idea what I am"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[2]Rose>\\C[0]I know what you are... But... Do you?"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[25]Candice>\\C[0]I\\|...I guess I'm a\\|... a..."])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[2]Rose>\\C[0]My mommy said your kind are called Suckybusses"])
+      ShowText(["I think that's what she called them\\|...\\|"])
+      ShowText(["Sussybusys\\|...\\| Sacubases... \\|Sasafrasses..."])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[25]Candice>\\C[0]Succubi?"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[2]Rose>\\C[0]YES! THAT'S THE WORD!!"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[25]Candice>\\C[0]Ok enough of that. Why are you just standing out"])
+      ShowText(["here?"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[2]Rose>\\C[0]The bridge to Crevace Town is out"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[25]Candice>\\C[0]Hmm..."])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[2]Rose>\\C[0]Hey. I have an idea. Maybe I can come with you?"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[25]Candice>\\C[0]Uh?"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[2]Rose>\\C[0]Then it's settled!"])
+      PlaySE(["RPG::SE(@name=\"Applause1\", @pitch=100, @volume=80)"])
+      ShowTextAttributes(["", 0, 1, 1])
+      ShowText(["Rose joined your party"])
+      ChangePartyMember([2, 0, 0])
+      TransferPlayer([0, 10, 22, 7, 0, 2])
+      Empty([])
+
+    When([1, "Ignore her"])
+      FadeoutScreen([])
+      ShowTextAttributes(["", 0, 2, 1])
+      ShowText(["You walk away and never see or hear from"])
+      ShowText(["Rose or her family ever again"])
+      GameOver([])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])

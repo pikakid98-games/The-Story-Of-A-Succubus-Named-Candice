@@ -1,0 +1,12 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    TintScreen(["Tone(@red=0.0, @green=0.0, @blue=0.0, @gray=0.0)", 170, true])
+    Wait([100])
+    TransferPlayer([0, 1, 8, 6, 0, 2])
+    Empty([])

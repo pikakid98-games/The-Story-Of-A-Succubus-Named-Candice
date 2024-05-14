@@ -1,0 +1,128 @@
+Actor 1
+Nickname = ""
+Character Name = "Monster2"
+Face Name = "TSOASNC Characters"
+Name = "Candice"
+Description = "A succubus with no memory of her past life."
+Note = ""
+
+Actor 2
+Nickname = ""
+Character Name = "People1"
+Face Name = "TSOASNC Characters"
+Name = "Rose"
+Description = "A little girl who forcefully joined your party.\r\nShe's screaming because you're reading up on her"
+Note = ""
+
+Actor 3
+Nickname = ""
+Character Name = "Actor2"
+Face Name = "TSOASNC Characters"
+Name = "Maria"
+Description = "A woman who thinks building is the only thing\r\nthat is important. She even builds weapons"
+Note = ""
+
+Actor 4
+Nickname = ""
+Character Name = "Actor4"
+Face Name = "TSOASNC Characters"
+Name = "Erica"
+Description = "A spoiled brat who thinks everyone is her servant\r\nShe assumes she is the leader of the group"
+Note = ""
+
+Actor 5
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = "{No Sprite}"
+Description = ""
+Note = ""
+
+Actor 6
+Nickname = ""
+Character Name = "Mittens"
+Face Name = ""
+Name = "Mittens (Mini Game Only)"
+Description = ""
+Note = ""
+
+Actor 7
+Nickname = ""
+Character Name = "!Flame"
+Face Name = "TSOASNC Characters"
+Name = "Candice"
+Description = "???"
+Note = ""
+
+Actor 8
+Nickname = ""
+Character Name = "Candice-Human"
+Face Name = "TSOASNC Characters"
+Name = "Candice"
+Description = "Candice Became A Human After Conquering Her\r\nDark Side."
+Note = ""
+
+Actor 9
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 10
+Nickname = ""
+Character Name = "Monster2"
+Face Name = "TSOASNC Characters"
+Name = "Candice"
+Description = ""
+Note = ""
+
+Actor 11
+Nickname = ""
+Character Name = "Monster2"
+Face Name = "TSOASNC Characters"
+Name = "*Mega Candice*"
+Description = "Channeling What Remains Of Her Inner Demons\r\nCandice Must Now Face Her Greatest Challenge"
+Note = ""
+
+Actor 12
+Nickname = ""
+Character Name = ""
+Face Name = ""
+Name = ""
+Description = ""
+Note = ""
+
+Actor 13
+Nickname = ""
+Character Name = "C Start 1"
+Face Name = ""
+Name = "Candice"
+Description = ""
+Note = ""
+
+Actor 14
+Nickname = ""
+Character Name = "C Start 2"
+Face Name = ""
+Name = "Candice 2"
+Description = ""
+Note = ""
+
+Actor 15
+Nickname = ""
+Character Name = "C Start 3"
+Face Name = ""
+Name = "Candice 3"
+Description = ""
+Note = ""
+
+Actor 16
+Nickname = ""
+Character Name = "Abbie"
+Face Name = ""
+Name = "Annie"
+Description = ""
+Note = ""
+

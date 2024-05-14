@@ -1,0 +1,50 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]Now we can explore even more areas"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[14]Maria>\\C[0]We may even figure out who that"])
+    ShowText(["other succubus is"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[8]Erica>\\C[0]\\|.\\|.\\>.If nobody else is going to say it then I will\\|..."])
+    ShowText(["that other succubus looks a lot like you, Candice"])
+    FadeoutBGM([1])
+    PlayBGM(["RPG::BGM(@name=\"Scene2\", @volume=100, @pitch=50)"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]Yes\\|... She does\\|... But who is she?"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]LET'S JUST PICK UP THAT MAP!!\\|"])
+    ShowText(["I WANNA HAVE MORE ADVENTURES!!!\\|"])
+    ShowText(["PLEASE!!"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]Hmm"])
+    ChangeItems([11, 1, 0, 1])
+    ChangeItems([12, 0, 0, 1])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["Your world map has now been upgraded"])
+    TransferPlayer([0, 143, 8, 8, 2, 0])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])

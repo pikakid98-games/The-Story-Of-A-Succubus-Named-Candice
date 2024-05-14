@@ -1,0 +1,230 @@
+Item 1
+Name = "Small Health Potion"
+Description = "A Substance That Heals Wounds In An Instant\r\nRecovers 200 Hit Points"
+Note = ""
+
+Item 2
+Name = "Small Essence Potion"
+Description = "This Substance Can Be Used To Heal Candice\r\nWhen HP Is Scarce. Recovers 100 Essence Points"
+Note = ""
+
+Item 3
+Name = "Meduim Health Potion"
+Description = "A Substance That Heals Wounds In An Instant\r\nRecovers 500 Hit Points"
+Note = ""
+
+Item 4
+Name = "Meduim Essence Potion"
+Description = "This Substance Can Be Used To Heal Candice\r\nWhen HP Is Scarce. Recovers 200 Essence Points"
+Note = ""
+
+Item 5
+Name = "Large Health Potion"
+Description = "A Substance That Heals Wounds In An Instant\r\nRecovers 1000 Hit Points"
+Note = ""
+
+Item 6
+Name = "Large Essence Potion"
+Description = "This Substance Can Be Used To Heal Candice\r\nWhen HP Is Scarce. Recovers 300 Essence Points"
+Note = ""
+
+Item 7
+Name = "Low Quality Revive"
+Description = "Revives A Fallen Ally By Half"
+Note = ""
+
+Item 8
+Name = "High Quality Revive"
+Description = "Revives A Fallen Ally Fully"
+Note = ""
+
+Item 9
+Name = "Box Of Revives"
+Description = "Revives All Fallen Allies With Full Health. Also\r\nMaximises ♠ Power"
+Note = ""
+
+Item 10
+Name = "World Map (V1)"
+Description = "Allows You To Travel The World\r\n(Available Areas: 2)"
+Note = ""
+
+Item 11
+Name = "World Map (V2)"
+Description = "Allows You To Travel The World\r\n(Available Areas: 3)"
+Note = ""
+
+Item 12
+Name = "World Map (V3)"
+Description = "Allows You To Travel The World\r\n(Available Areas: 4)"
+Note = ""
+
+Item 13
+Name = "World Map (V4)"
+Description = "Allows You To Travel The World\r\n(Available Areas: 5)"
+Note = ""
+
+Item 14
+Name = ""
+Description = ""
+Note = ""
+
+Item 15
+Name = ""
+Description = ""
+Note = ""
+
+Item 16
+Name = ""
+Description = ""
+Note = ""
+
+Item 17
+Name = ""
+Description = ""
+Note = ""
+
+Item 18
+Name = ""
+Description = ""
+Note = ""
+
+Item 19
+Name = ""
+Description = ""
+Note = ""
+
+Item 20
+Name = "Spell Book [Essence Drain]"
+Description = "Contains A Spell\r\nCandice Only"
+Note = ""
+
+Item 21
+Name = "Spell Book [Heal]"
+Description = "Contains A Spell\r\nCandice Only"
+Note = ""
+
+Item 22
+Name = "Achievement:  PurrCatory Fan"
+Description = "[PurrCatory Fan]\r\nDiscover The Hidden PurrCatory Easter Egg"
+Note = ""
+
+Item 23
+Name = "Achievement: Cat Party"
+Description = "[Cat Party]\r\nDiscover The Hidden Cat Party Area"
+Note = ""
+
+Item 24
+Name = "Mysterious Key"
+Description = "A Key To The Old Shed"
+Note = ""
+
+Item 25
+Name = "Achievement: Arkata Defeated"
+Description = "[Arkata Defeated]\r\nDefeated The First Boss, Arkata"
+Note = ""
+
+Item 26
+Name = "Spell Book [Mass Heal]"
+Description = "Contains A Spell\r\nCandice Only"
+Note = ""
+
+Item 27
+Name = "Spell Book [Temper Tantrum]"
+Description = "Contains A Spell\r\nRose Only"
+Note = ""
+
+Item 28
+Name = "Spell Book [Flaming Hammer]"
+Description = ""
+Note = ""
+
+Item 29
+Name = "Defense Drop Powder"
+Description = "Dropped From A Rare Slime It Causes All\r\nOpponent's Defense To Drop For 5 Turns"
+Note = ""
+
+Item 30
+Name = "Slime Juice"
+Description = "Dropped By A Slime It Can Recover Health,\r\nRestore Essence And Raise TP By 50% Each"
+Note = ""
+
+Item 31
+Name = "Rare Slime Juice"
+Description = "Dropped By A Rare Slime It Can Recover Health,\r\nRestore Essence And Raise TP By 100% Each"
+Note = ""
+
+Item 32
+Name = "Hearty Apple"
+Description = "A Rare Item Dropped By Very Few Enemies\r\nIt Increases The Party's Level By 1"
+Note = ""
+
+Item 33
+Name = "Imp Tail Bone"
+Description = "The Tail Bone Of An Imp. Is Suppose That The Imp\r\nThat This Came From Was... TAILING YOU!!!"
+Note = ""
+
+Item 34
+Name = "Rare Imp Tail Bone"
+Description = "The Tail Bone Of A Rare Imp. His Tailing Days\r\nAre Over. I'm So Sorry"
+Note = ""
+
+Item 35
+Name = "Achievement: The Ancient Treasure"
+Description = "[The Ancient Treasure]\r\nDiscover The Secret Treasure In Bandit's Labyrinth"
+Note = ""
+
+Item 36
+Name = "Achievement: GG, Developer... GG"
+Description = "[GG Developer... GG]\r\nInsert The Name \"Jordan\" Into The Desert Statue"
+Note = ""
+
+Item 37
+Name = "▓▓▓ (Part A)"
+Description = "{This Item Is Not Supposed To Be In The Game}"
+Note = ""
+
+Item 38
+Name = "▓▓▓ (Part B)"
+Description = "{This Item Is Not Supposed To Be In The Game}"
+Note = ""
+
+Item 39
+Name = "▓▓▓"
+Description = "Hacker >:( Don't You Dare Use This\r\nERROR CODE: q0PmB"
+Note = ""
+
+Item 40
+Name = "Achievement: Dijara Defeated"
+Description = "[Dijara defeated]\r\nDefeated the second boss, Dijara"
+Note = ""
+
+Item 41
+Name = "Spell Book [Eternity]"
+Description = "Contains a spell\r\nErica only"
+Note = ""
+
+Item 42
+Name = "Bandit's Turban"
+Description = "I don't know if this is racist.. I really don't know"
+Note = ""
+
+Item 43
+Name = "Rare Bandit's Turban"
+Description = "It's.. um... you know what? You think of what\r\nshould go here"
+Note = ""
+
+Item 44
+Name = "Strange Orb"
+Description = "It's a.. Well.. I don't even know what it is"
+Note = ""
+
+Item 45
+Name = "Jellyfish Jelly"
+Description = "It's quite disgusting... And it smells really bad"
+Note = ""
+
+Item 46
+Name = "Rare Jellyfish Jelly"
+Description = "Somehow it's even more disgusting than before"
+Note = ""
+

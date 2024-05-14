@@ -1,0 +1,182 @@
+Skill 1
+Message 1 = " attacks!"
+Message 2 = ""
+Name = "Attack"
+Description = "Damages the enemy."
+Note = "Skill #1 will be used when you select\r\nthe Attack command."
+
+Skill 2
+Message 1 = " guards."
+Message 2 = ""
+Name = "Guard"
+Description = "Protects user and reduces damage taken."
+Note = "Skill #2 will be used when you select\r\nthe Guard command."
+
+Skill 3
+Message 1 = " attacks!"
+Message 2 = ""
+Name = "Dual Attack"
+Description = "Hits an enemy twice!"
+Note = ""
+
+Skill 4
+Message 1 = " casts Essence Drain!"
+Message 2 = ""
+Name = "Essence Drain"
+Description = "[Element: Dark]\r\nDrains The Enemy Of Some Life Essence"
+Note = ""
+
+Skill 5
+Message 1 = " uses Heal!"
+Message 2 = ""
+Name = "Heal"
+Description = "[Element: Dark]\r\nUses Life Essence To Heal Candice By 200"
+Note = ""
+
+Skill 6
+Message 1 = " uses Serpent Drain!"
+Message 2 = ""
+Name = "Serpent Drain"
+Description = "Enemy Only Power"
+Note = ""
+
+Skill 7
+Message 1 = " casts Mass Heal!"
+Message 2 = ""
+Name = "Mass Heal"
+Description = "[Element: Dark]\r\nHeal All Allies By 200 Points"
+Note = ""
+
+Skill 8
+Message 1 = " is having a Temper Tantrum!"
+Message 2 = ""
+Name = "Temper Tantrum"
+Description = "[Element: Earth]\r\nIncreases Attack And Resists Death For 2-5 Turns"
+Note = ""
+
+Skill 9
+Message 1 = " uses Flaming Hammer!"
+Message 2 = ""
+Name = "Flaming Hammer"
+Description = "[Element: Fire]\r\nHas A 50-50 Chance To Burn The Opponent"
+Note = ""
+
+Skill 10
+Message 1 = " uses Dragon Body!"
+Message 2 = ""
+Name = "Dragon Body"
+Description = "[Element: Wind]\r\nThe User Transforms Into A Dragon For 3-5 Turns"
+Note = ""
+
+Skill 11
+Message 1 = " casts Eternity!"
+Message 2 = ""
+Name = "Eternity"
+Description = "[Element: Wind]\r\nBoosts All Allies Attack And Defence For 5 Turns"
+Note = ""
+
+Skill 12
+Message 1 = " attacks!"
+Message 2 = ""
+Name = "Megaton Hammer"
+Description = "Emeny Only Move"
+Note = ""
+
+Skill 13
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 14
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 15
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 16
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 17
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 18
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 19
+Message 1 = ""
+Message 2 = ""
+Name = ""
+Description = ""
+Note = ""
+
+Skill 20
+Message 1 = " uses Mega Heal!"
+Message 2 = ""
+Name = "Mega Heal"
+Description = "[Element: Dark]\r\nUses Life Essence To Heal Candice By 2000"
+Note = ""
+
+Skill 21
+Message 1 = " uses Mega Essence Drain!"
+Message 2 = ""
+Name = "Mega Essence Drain"
+Description = "[Element: Dark]\r\nDrains The Enemy Of A Lot Of Life Essence"
+Note = ""
+
+Skill 22
+Message 1 = " uses Epic Finale!"
+Message 2 = ""
+Name = "Epic Finale"
+Description = "A Super Powerful Move. It's Not Very Accurate\r\nHowever"
+Note = ""
+
+Skill 23
+Message 1 = " uses Attack V2!"
+Message 2 = ""
+Name = "Attack V2"
+Description = "Damages the enemy."
+Note = "Skill #1 will be used when you select\r\nthe Attack command."
+
+Skill 24
+Message 1 = " uses Attack V3!"
+Message 2 = ""
+Name = "Attack V3"
+Description = "Damages the enemy."
+Note = "Skill #1 will be used when you select\r\nthe Attack command."
+
+Skill 25
+Message 1 = " uses Attack V4!"
+Message 2 = ""
+Name = "Attack V4"
+Description = "Damages the enemy."
+Note = "Skill #1 will be used when you select\r\nthe Attack command."
+
+Skill 26
+Message 1 = " uses Painful Bite!"
+Message 2 = ""
+Name = "Painful Bite"
+Description = ""
+Note = ""
+

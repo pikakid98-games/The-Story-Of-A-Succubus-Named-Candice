@@ -1,0 +1,108 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    FadeinScreen([])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[26]Annie>\\C[0]AARRGGHH!! A SUCCUBUS!!"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<Succubus>You flatter me"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]I didn't know succubi lived here"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<Succubus>Nope. Just me"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[26]Annie>\\C[0]AARRGHH! KILL IT!!"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]Annie. Shush"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<Succubus>Kill me? You little brats. I know you want my"])
+    ShowText(["treasure. Well.. You can't have it"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=29, @parameters=[6])\", \"RPG::MoveCommand(@code=31, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=29, @parameters=[6])"])
+    Unnamed(["RPG::MoveCommand(@code=31, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Naruto Shippuuden Theme - Keisei Gyakuten\", @volume=100, @pitch=150)"])
+    BattleProcessing([0, 31, false, true])
+    IfWin([])
+      PlayBGM(["RPG::BGM(@name=\"Scene5\", @volume=100, @pitch=100)"])
+      ChangeBattleBGM(["RPG::BGM(@name=\"Naruto - Strong And Strike (Extended)\", @volume=100, @pitch=100)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<Succubus>Ugh!"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[26]Annie>\\C[0]WE WON!!"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<Succubus>Don't celebrate just yet, You brats"])
+      Empty([])
+
+    IfLose([])
+      PlayBGM(["RPG::BGM(@name=\"Dungeon3\", @volume=100, @pitch=100)"])
+      ChangeBattleBGM(["RPG::BGM(@name=\"Dungeon3\", @volume=100, @pitch=100)"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[26]Annie>\\C[0]Damn... We... Lost"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[25]Candice>\\[0] Yeah. But.."])
+      PlayBGM(["RPG::BGM(@name=\"Scene3\", @volume=100, @pitch=150)"])
+      SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=44, @parameters=[\\\"RPG::SE(@name=\\\\\\\"Bite\\\\\\\", @pitch=100, @volume=100)\\\"])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=44, @parameters=[\"RPG::SE(@name=\\\"Bite\\\", @pitch=100, @volume=100)\"])"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[25]Candice>\\C[0]OW!!!"])
+      SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+      Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+      SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=41, @parameters=[\\\"\\\", 0])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+      Unnamed(["RPG::MoveCommand(@code=41, @parameters=[\"\", 0])"])
+      ShowTextAttributes(["", 0, 0, 2])
+      ShowText(["\\n<\\C[26]Annie>\\C[0]CANDICE!?! We need to get you back to the ship"])
+      TransferPlayer([0, 166, 1, 10, 2, 0])
+      Empty([])
+
+    BattleProcessingEnd([])
+    PlayBGM(["RPG::BGM(@name=\"Scene3\", @volume=100, @pitch=150)"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=1, @parameters=[])\", \"RPG::MoveCommand(@code=44, @parameters=[\\\"RPG::SE(@name=\\\\\\\"Bite\\\\\\\", @pitch=100, @volume=100)\\\"])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=1, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=44, @parameters=[\"RPG::SE(@name=\\\"Bite\\\", @pitch=100, @volume=100)\"])"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]OW!!!"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=4, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    Unnamed(["RPG::MoveCommand(@code=4, @parameters=[])"])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=41, @parameters=[\\\"\\\", 0])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=41, @parameters=[\"\", 0])"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[26]Annie>\\C[0]CANDICE!?! We need to get you back to the ship"])
+    TransferPlayer([0, 166, 1, 10, 2, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])

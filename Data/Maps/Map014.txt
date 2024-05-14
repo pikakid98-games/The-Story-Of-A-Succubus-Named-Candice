@@ -1,0 +1,50 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Wait([20])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[9]Rick>\\C[0]GO AHEAD. RUIN OUR LIVES!!!"])
+    ShowText(["BUT JUST KNOW THAT YOU WILL BE"])
+    ShowText(["RUINING THE LIVES OF HUNDREDS OF PEOPLE!!"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]I have no intention of doing so"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[9]Rick>\\C[0]THEN WHY!?! WHY DID YOU COME HERE?!?!"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]I... I don't know"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]DADDY STOP!! SHE MEANS NO HARM!!"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[9]Rick>\\C[0]What?"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]I found her by the beach... Hurt, Helpless, Alone"])
+    ShowText(["and probably scared for her life"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]*sniffs* She's not mean. She's nice"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[9]Rick>\\C[0]Hmm."])
+    TransferPlayer([0, 15, 6, 19, 0, 2])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Empty([])

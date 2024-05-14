@@ -1,0 +1,45 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[17]Pikakid98>\\C[0]Hello. You're probably wondering why you're here."])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[17]Pikakid98>\\C[0]Well. If it wasn't obvious enough."])
+    ShowText(["This is just a demo.. The full version will include"])
+    ShowText(["the full game along with some additional content"])
+    Comment(["\\/ Everything below here is for the pre-Steam demo \\/"])
+    ShowTextAttributes(["", 0, 1, 1])
+    ShowText(["\\C[2]This would normally be the part where you're asked"])
+    ShowText(["if you want to buy the full version. But the game"])
+    ShowText(["currently isn't on Steam right now. So here's some"])
+    ShowText(["alternate dialogue."])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[17]Pikakid98>\\C[0]So Yeah. I'm trying to get this game on Steam."])
+    ShowText(["So I can't keep updating a demo"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[17]Pikakid98>\\C[0]Sorry.. But there's nothing much now"])
+    ControlSelfSwitch(["A", 0])
+    Empty([])
+
+  Page 1
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[17]Pikakid98>\\C[0]I still have to add:"])
+    ShowText(["\\C[1]Original music\\C[0]\\|, \\C[2]Original sprites\\C[0]\\|, \\C[3]Original tilesets\\C[0]\\|,"])
+    ShowText(["\\C[13]The rest of Candice's campagin\\C[0]\\|,\\C[14]The other campaigns\\C[0]\\|,"])
+    ShowText(["\\C[20]More sripts\\C[0]\\|, \\C[24]Steam achievements\\C[0] \\|...and much more..."])
+    SetMoveRoute([0, "RPG::MoveRoute(@repeat=false, @skippable=false, @wait=true, @list=[\"RPG::MoveCommand(@code=16, @parameters=[])\", \"RPG::MoveCommand(@code=0, @parameters=[])\"])"])
+    Unnamed(["RPG::MoveCommand(@code=16, @parameters=[])"])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    PlaySE(["RPG::SE(@name=\"Move\", @pitch=100, @volume=80)"])
+    TransferPlayer([0, 222, 17, 17, 6, 0])
+    Empty([])

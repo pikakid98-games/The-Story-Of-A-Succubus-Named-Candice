@@ -1,0 +1,56 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]OH YEAH. ANOTHER ONE DOWN!!"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[14]Maria>\\C[0]I must say we're quite the team"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[8]Erica>\\C[0]A team i own, remember?\\|...Right, Candice?"])
+    FadeoutBGM([1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]..."])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[8]Erica>\\C[0]HOW DARE YOU IGNORE ME!!"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]Wait\\|...\\|I\\|...I think it might be a good"])
+    ShowText(["idea to just leave her alone"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[14]Maria>\\C[0]Clearly she has a lot on her mind"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[8]Erica>\\C[0]Oh boo hoo"])
+    FadeoutScreen([])
+    Wait([60])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]No\\|...It can't be true\\|.\\|.\\|."])
+    ChangeItems([12, 1, 0, 1])
+    ChangeItems([13, 0, 0, 1])
+    ShowTextAttributes(["", 0, 1, 2])
+    ShowText(["Your world map has now been upgraded"])
+    TransferPlayer([0, 153, 8, 3, 2, 0])
+    ChangeTransparency([1])
+    FadeinScreen([])
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])

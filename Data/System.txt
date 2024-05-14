@@ -1,0 +1,7 @@
+Game Title = "The Story Of A Succubus Named Candice {V0.7}"
+Currency Unit = "G"
+Title 1 Name = "Background"
+Title 2 Name = ""
+Battleback 1 Name = ""
+Battleback 2 Name = ""
+Battler Name = "Assassin"

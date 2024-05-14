@@ -1,0 +1,56 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[25]Candice>\\C[0]I\\|...I think i know who she may be"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["\\n<\\C[2]Rose>\\C[0]Well there's no time for that now"])
+    ChangeBattleBack(["IceMaze", "Sky"])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Naruto Shippuuden Theme - Keisei Gyakuten\", @volume=100, @pitch=150)"])
+    BattleProcessing([0, 21, false, false])
+    RecoverAll([0, 0])
+    ChangeBattleBack(["", ""])
+    ChangeBattleBGM(["RPG::BGM(@name=\"Naruto - Strong And Strike (Extended)\", @volume=100, @pitch=100)"])
+    TransferPlayer([0, 221, 7, 2, 6, 0])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    Empty([])
