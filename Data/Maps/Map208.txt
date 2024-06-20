@@ -1,3 +1,0 @@
-Display Name = ""
-Parallax Name = ""
-Note = ""

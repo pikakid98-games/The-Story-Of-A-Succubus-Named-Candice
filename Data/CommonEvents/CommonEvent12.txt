@@ -1,5 +1,0 @@
-CommonEvent 12
-Name = "Level Up!"
-
-  ChangeLevel([0, 0, 0, 0, 1, true])
-  Empty([])
